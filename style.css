@@ -1,0 +1,16 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header, footer {
+	background-color: #e6f2ff;
+	color: #000080;
+	padding: 2%;
+	text-align: center;
+}
+
+aside {
+	background-color: #b3d9ff;
+	text-align: center;
+	padding-bottom: 5%;
+}

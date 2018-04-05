@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Layout Shifter Pattern</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <h1>Layout shifter pattern</h1>
+    </header>
+    <div class="container"> 
+      <div class="row">
+        <div class="col-sm-9 col-lg-8 col-sm-push-3 col-lg-push-2">
+          <h1> Layout shifter </h1>
+          <p> The layout shifter pattern is the most responsive pattern, with multiple breakpoints across several screen widths. Key to this layout is the way content moves about, instead of reflowing and dropping below other columns. Due to the significant differences between each major breakpoint, it is more complex to maintain and likely involves changes within elements, not just overall content layout. </p>
+        </div> 
+        <aside class="col-sm-3 col-lg-2 col-sm-pull-9 col-lg-pull-8">
+          <h3> Learn More</h3>
+          <p> <a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns" alt="Responsive Patterns"> Responsive Web Design Patterns </a> </p>
+        </aside>
+      </div>
+    </div> 
+    <footer class="container-fluid">
+      <h3>Footer</h3>
+    </footer>
+  </body>
+</html>
